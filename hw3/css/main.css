@@ -1,0 +1,56 @@
+﻿/*so that aside is flushed against top left*/
+body {
+	margin-top: 0px;
+	margin-left: 0px;
+}
+
+section {
+	width: 850px;
+	float: right;
+	border-style: none;
+	padding: 20px 0px 20px 0px;
+}
+
+aside {
+	width: 650px;
+	height: 100%;
+	float: left;
+	position: fixed;
+	border-style: none;
+	margin: 0px;
+	background-color: brown;
+}
+
+/*following boxes to serve as articles*/
+.articleBox {
+	float: left;
+    width: 400px;
+    height: 400px;
+    border-style: none;
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
+
+.boxRed {
+    background-color: red;
+}
+
+.boxOrange {
+    background-color: orange;
+}
+
+.boxYellow {
+    background-color: yellow;
+}
+
+.boxGreen {
+    background-color: green;
+}
+
+.boxBlue {
+    background-color: blue;
+}
+
+.boxPurple {
+    background-color: purple;
+}
