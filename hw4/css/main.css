@@ -1,0 +1,156 @@
+body {
+    background: linear-gradient(to bottom, #7F9EAD 0%, #477082  100%);
+    background-attachment: fixed;
+}
+
+section {
+    width: 65%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+nav {
+    float: right;
+    margin-top: 30px;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    font-family: Arial, Verdana, sans-serif; font-size: 15px; color:white;
+    padding: 0px 30px 0px 0px;
+    text-transform: uppercase;
+    float: left;
+ }
+
+.row {
+    margin: 0px;
+}
+
+.wCon {  /*white container*/
+    background-color: white;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-right: 30px; /*to align right margin to edge of navigation*/
+    padding-top: 20px;
+    font-family: Arial, Verdana, sans-serif; font-size: 15px;
+}
+
+.bCon {  /*blue container*/
+    width: 98%;
+    background-color: #456F81;
+    border-radius: 5px;
+    margin-right: auto;
+    margin-left: auto;
+    font-family: Arial, Verdana, sans-serif; color:white;
+    padding: 20px 0px 20px 20px; /*padding top added, b/c p.bCon* are inlines*/
+}
+
+.gridCon { /*contain grid with additional text and contact form*/
+    width: 98%;
+    margin-right: auto;
+    margin-left: auto;
+    font-family: Arial, Verdana, sans-serif; color:white;
+    padding: 0px 0px 0px 20px;
+}
+
+.container-fluid {
+    padding: 0px 0px 0px 20px;
+}
+
+p.bConTitle {
+    display: inline;
+    font-weight:bold;
+    text-transform: uppercase;
+    font-size: 21px;
+}
+
+p.bConInField {
+    display: inline;
+    font-size: 15px;
+}
+
+p.bConInExample { /*use to change color of input field example text*/
+    display:inline;
+    font-size: 15px;
+    color:#bed0d8;
+}
+
+p.WConSearchInst {
+    color:#5d5e52;
+    padding: 20px 0px 20px 0px;
+}
+
+p.WConGridHeader {
+    color:#000000;
+    font-weight: bold;
+}
+
+p.WConGridText {
+    color:#000000;
+}
+
+p.ContactFormHeader {
+    color: #000000;
+    text-transform: uppercase;
+}
+
+p.ContactFormText {
+    color:#000000;
+    margin-bottom: 2px;
+    font-weight: normal;
+}
+
+#InputComments {
+    height: 60px;
+}
+
+
+.col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-8 { /*control padding for bootstrap's class*/
+    padding: 5px 0px 0px 0px;
+}
+
+.col-md-2 {
+    text-align: right;
+}
+
+.btn-sm { /*turn background to grey*/
+    background-color:#959A8F;
+    color: #FFFFFF;
+    padding: 2px 2px 2px 2px;
+    text-transform: uppercase;
+}
+
+.btn-primary { /*change background*/
+    background-color:#809EAD;
+    color: #FFFFFF;
+    padding: 2px 2px 2px 2px;
+    text-transform: uppercase;
+    border: 0px;
+    margin-top: 15px;
+}
+
+.form-group { /*minimize margin*/
+    margin-bottom: 5px;
+}
+
+label { /*minimize margin*/
+    margin-bottom: 2px;
+}
+
+.form-control {/*minimize padding*/
+    background-color: #E0E8ED;
+}
+
+.clear {
+    clear: right;
+}
+
+.addPad { /*add padding at bottom for extra white space*/
+    padding-bottom: 20px;
+}

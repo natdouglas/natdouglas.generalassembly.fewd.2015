@@ -1,0 +1,128 @@
+﻿<!doctype html>
+<html> 
+<head> 
+	<meta charset="utf-8">
+	<title>LIVE SEARCH - Job Board</title> 
+	<link rel="stylesheet" type="text/css" href="../../bootstrap/bower_components/bootstrap/dist/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+
+<body>
+<div id="page">
+	<header>
+		<nav>
+			<ul>
+				<li>Home</li>
+				<li>About</li>
+				<li>Services</li>
+				<li>Experience</li>
+				<li>Contact</li>
+			</ul>
+		</nav>
+		<div class="clear"></div>
+	</header>
+	<div id="content"> 
+		<div class="wCon"> <!--WHITE CONTAINER-->
+			<div class="bCon"> <!-- BLUE CONTAINER-->
+				<p class="bConTitle">Live Search</p>
+				<div class="row" style="padding-bottom: 2px;"> <!-- create a little space between field text and actual fields -->
+					<div class="col-md-4" style="padding-right: 15px;"><p class="bConInField">Location</p><p class="bConInExample"> (e.g. Boston)</p></div>
+					<div class="col-md-4"><p class="bConInField">Keyword</p><p class="bConInExample"> (e.g. Web Developer)</p></div>
+				</div>
+				<div class="row"> 
+					<div class="col-md-4" style="padding-right: 15px;"> <!--Location form field with no placeholder text-->
+			 			<form class="form-group">
+			 				<label class="sr-only" for="InputLocation"></label>
+			 				<input type="text" class="form-control" id="InputLocation">
+			 			</form>
+				 	</div>
+				 	<div class="col-md-4">
+				 		<form class="form-group"> <!--Keyword form field with no placeholder text-->
+				 			<label class="sr-only" for="InputKeyword"></label>
+				 			<input type="text" class="form-control" id="InputKeyword">
+				 		</form>
+				 	</div>
+				</div>
+			</div> <!-- END BLUE CONTAINER-->
+			<div class="gridCon">
+				<p class="WConSearchInst">Search results for <b>"Put name of search term here"</b></p>
+				<div class="fluid-container">
+					<div class="row">
+						<div class="col-md-8"> <!--left column-->
+							<div class="row">
+								<div class="col-md-4"><p class="WConGridHeader">Location</p></div>
+								<div class="col-md-6"><p class="WConGridHeader">Description</p></div>
+								<div class="col-md-2"></div>
+							</div>	
+							<div class="row"> <!-- create line -->
+								<div class="col-md-12" style="border-bottom: thin solid #bed0d8; background-color:green;"></div>
+							</div>
+							<div class="row"> <!-- grid text row 1 of 8-->
+								<div class="col-md-4"><p class="WConGridText">Name of location</p></div>
+								<div class="col-md-6"><p class="WConGridText">Description of location and/or keywords</p></div>
+								<div class="col-md-2"><button type="button" class="btn btn-default btn-sm">View Now</button></div>
+							</div>
+							<div class="row"> <!-- grid text row 2 of 8 -->
+								<div class="col-md-4"><p class="WConGridText">Name of location</p></div>
+								<div class="col-md-6"><p class="WConGridText">Description of location and/or keywords</p></div>
+								<div class="col-md-2"><button type="button" class="btn btn-default btn-sm">View Now</button></div>
+							</div>
+							<div class="row"> <!-- grid text row 3 of 8 -->
+								<div class="col-md-4"><p class="WConGridText">Name of location</p></div>
+								<div class="col-md-6"><p class="WConGridText">Description of location and/or keywords</p></div>
+								<div class="col-md-2"><button type="button" class="btn btn-default btn-sm">View Now</button></div>
+							</div>
+							<div class="row"> <!-- grid text row 4 of 8 -->
+								<div class="col-md-4"><p class="WConGridText">Name of location</p></div>
+								<div class="col-md-6"><p class="WConGridText">Description of location and/or keywords</p></div>
+								<div class="col-md-2"><button type="button" class="btn btn-default btn-sm">View Now</button></div>
+							</div>
+							<div class="row"> <!-- grid text row 5 of 8 -->
+								<div class="col-md-4"><p class="WConGridText">Name of location</p></div>
+								<div class="col-md-6"><p class="WConGridText">Description of location and/or keywords</p></div>
+								<div class="col-md-2"><button type="button" class="btn btn-default btn-sm">View Now</button></div>
+							</div>
+							<div class="row"> <!-- grid text row 6 of 8 -->
+								<div class="col-md-4"><p class="WConGridText">Name of location</p></div>
+								<div class="col-md-6"><p class="WConGridText">Description of location and/or keywords</p></div>
+								<div class="col-md-2"><button type="button" class="btn btn-default btn-sm">View Now</button></div>
+							</div>
+							<div class="row"> <!-- grid text row 7 of 8 -->
+								<div class="col-md-4"><p class="WConGridText">Name of location</p></div>
+								<div class="col-md-6"><p class="WConGridText">Description of location and/or keywords</p></div>
+								<div class="col-md-2"><button type="button" class="btn btn-default btn-sm">View Now</button></div>
+							</div>
+							<div class="row"> <!-- grid text row 8 of 8 -->
+								<div class="col-md-4"><p class="WConGridText">Name of location</p></div>
+								<div class="col-md-6"><p class="WConGridText">Description of location and/or keywords</p></div>
+								<div class="col-md-2"><button type="button" class="btn btn-default btn-sm">View Now</button></div>
+							</div>
+						</div> <!--END left column-->
+						<div class="col-md-4" style="padding-left: 20px;"><!--right column-->
+							<div class="row"><p>hello</p></div> <!--HELP - How do I create a space filler properly?-->
+							<div class="row"><p class="ContactFormHeader"><b>Contact Us</b></p></div>
+							<form> <!--Contact Us form to reside in right column-->
+								<div class="form-group">
+									<label for="InputName" class="ContactFormText">Name</label>
+									<input type="text" class="form-control" id="InputName">
+								</div>
+								<div class="form-group">
+									<label for="InputEmail" class="ContactFormText">Email Address</label>
+									<input type="email" class="form-control" id="InputEmail">
+								</div>
+								<div class="form-group">
+									<label for="InputComments" class="ContactFormText">Comments</label>
+									<input type="text" class="form-control" id="InputComments">
+								</div>
+							</form>
+							<button type="button" class="btn btn-default btn-primary">Submit</button>
+						</div> <!--END right column-->
+					</div> <!--END row-->	
+				</div>	
+			</div>
+			<div class="addPad"></div>
+		</div> <!-- END WHITE CONTAINER-->
+	</div> <!-- END content-->
+</div> <!-- END content-->	
+</body> 
+</html>

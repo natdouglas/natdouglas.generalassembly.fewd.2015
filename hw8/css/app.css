@@ -1,0 +1,100 @@
+html {
+	font-family: Arial, Verdana, sans-serif;
+}
+
+h1 {  /*used for title of exercise in exerciseBox*/
+	font-size: 26px;
+	font-weight: bold;
+	text-align: center;
+}
+
+h2 {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.centerCon {
+    padding-top: 20px;
+}
+
+.navbar-custom {
+	background-color:#3E4957;
+	margin: 0px;
+}
+
+.nav-title {
+	color:white; /*#C55186;*/
+	font-size: 20px;
+	font-weight: bold;
+    padding: 15px 0px 15px 15px;
+}
+
+.centerCon {  /*center container*/
+	margin-right: auto;
+    margin-left: auto;
+    padding 15px 0px 0px 0px;
+}
+
+.row {
+	margin:0px;
+}
+
+/*following boxes to serve as articles*/
+.articleBox {
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+    border-style: none;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.resultBox {
+/*    border-style: solid;
+    border-color: purple;
+    border-width: 2px;  
+*/}
+
+.articleBox:hover { /*when user hovers*/
+/*    outline: green solid 2px;*/
+    outline-offset: -20px;
+    opacity: 0.4;
+}
+
+.boxOne {
+    background-color:#8D3A61;
+    color:#D9E6F7;
+}
+
+.boxTwo {
+    background-color:#D9E6F7;
+}
+
+.boxThree {
+    background-color:#C55186;
+    color:#E7C8D7;
+}
+
+.boxFour {
+    background-color:#AAAAAA;
+}
+
+.boxFive {
+    background-color:#3E4957;
+    color:white;
+}
+
+.boxSix {
+    background-color:#E7C8D7;
+}
+
+.functionBox {
+    width: 80px;
+    height: 80px;
+    border-style: solid;
+    border-color: red;
+}

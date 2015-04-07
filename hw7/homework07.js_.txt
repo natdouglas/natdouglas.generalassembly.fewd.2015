@@ -1,0 +1,95 @@
+// 1. Fill in the code for the following function
+
+function summation(n) {
+    // your code here to get sum of all numbers between 1 and n
+}
+
+summation(3); // 6
+summation(10); // 55
+
+
+// 2. Write a function to get the sum of all the even numbers between 1 and n (hint: use the summation function above as a starting point and look up something called the modulus operator as an easy way to get even or odd numbers)
+
+
+// 3. Fill in the code for the following function
+
+function firstWord(words) {
+    // your code here to get the first word
+}
+
+firstWord(['red', 'blue', 'green']); // red
+
+
+// 4. Fill in the code for the following function
+
+function addDashes(words) {
+    // your code here to combine all of the words with a dash between them
+}
+
+addDashes(['test1', 'test2', 'test3']); // 'test1-test2-test3'
+
+// 5. Fill in the code for the following function
+
+function countUpAndDown(n) {
+    // your code here to count from 1 to n and then back down to 1
+}
+
+countUpAndDown(5); // 1 2 3 4 5 4 3 2 1
+
+// 6. Write a function that will tell you all of the words in the following array that contain the letter a (hint: you can use a function called indexOf() for this), so the answer would be ['cat', 'hamster', 'rabbit'] and if you want to create a new array you can use a function called push() to add items to an array
+
+var words = ['cat', 'dog', 'mouse', 'hamster', 'rabbit', 'owl']; 
+
+
+// 7. Fill in the code for the following function
+
+function reverseString(string) {
+    // your code here to reverse the characters in the string
+}
+
+reverseString('cat'); // tac
+
+
+// 8. Based on our shopping list from class, write a function that takes this data structure as a parameter and gives you the total cost of the items in the list.
+
+
+// 9. Based on our shopping list from class, write a function that tells you what the most expensive product is
+
+
+// Use the following for questions 10 - 14
+
+var Task = function(name, category, status) {
+    this.name = name;
+    this.category = category;
+    this.status = status;
+};
+
+var Category = function(name) {
+    this.name = name;
+};
+
+var Status = {
+    open: 0,
+    inProgress: 1,
+    complete: 2
+};
+
+var tasks = [];
+var categories = [];
+
+// 10. Create two categories, each with a different name
+
+
+// 11. Create two tasks, each one with a name, a category (which is a reference to one of the categories you created, and a status number which you can use the Status object for)
+
+
+// 12. Add your categories and tasks to the arrays above using the push() function
+
+
+// 13. Write some code that will loop through all of your tasks and write out the task name and category name for each
+
+
+// 14. Write some code that will log all tasks that match a certain status
+
+
+// 15. Based on what you know about HTML and JavaScript, write out a structure similar to what I did for categories and tasks to model the objects in a photo gallery. This is very open ended and there's not one right answer, so be creative!

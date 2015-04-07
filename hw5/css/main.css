@@ -1,0 +1,211 @@
+body {
+    font-family: Georgia, 'Times New Roman', serif;
+}
+
+.page {
+}
+
+.background {
+    width: 1116px;
+    position: fixed;
+    top: 50px;
+    left:0px;
+    height: 425px;
+    background-image: url("../treks/images/body_bg.png");
+    background-size: 87px 500px;
+    background-repeat: repeat-x;
+    background-attachment: fixed;
+    z-index: -1;
+}
+
+p.title1 {
+    font-size: 30px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+p.title2 {
+    font-size: 20px;
+}
+
+p.small {
+    font-size: 12px;
+}
+
+p.med1 {
+    font-size: 14px;
+    line-height: 75%;
+}
+
+p.med2 {
+    font-size: 22px;
+}
+
+p.med3 {
+    font-size: 18px;
+}
+
+.bBack {  /*brown background*/
+    width: 950px;
+    background-color: #F7F1E6;
+    margin-right: auto;
+    margin-left: auto;
+    height: 685px;
+}
+
+.containers { /*common properties*/
+    width: 97%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.wCon {  /*white container*/
+    background-color: #FFFFFF;
+    height: 480px;
+}
+
+.bCon {  /*brown container*/
+/*    margin-top: 10px;*/
+    background-color: #96876F;
+    height: 200px;
+}
+
+.wfootCon { /*white area for the footer*/
+    width: 921.5px;  /*to correspond to 97% of bBack*/
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #FFFFFF;
+    height: 150px;
+    margin-top: 5px;
+}
+
+header {
+    background: linear-gradient(to bottom, #f6f8f9 0%,#e5ebee 50%,#d7dee3 51%,#f5f7f9 100%);
+    background-attachment: fixed;
+    width: 730px;
+    height: 40px;
+    float: right;
+    margin-top: 5px;
+}
+
+a:link, a:visited, a:active { /*do not change link colors*/
+    color: inherit;
+    text-decoration: none;
+}
+
+a:hover { /*change background to light blue*/
+    background-color: #C2DFFF;
+}
+
+a[href='#'] { /*specific for the "more" link in Rbox*/
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+nav {
+    width: inherit;
+    margin-left: 20px;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    display: inline;
+    font-size: 15px; color:#7D7B8C;
+    padding: 5px 20px 5px 20px;
+    text-transform: capitalize;
+    float: left;
+ }
+
+footer {
+    font-size: 12px; color:#96876F;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;   
+ }
+
+footer li {
+    display: inline;
+    text-transform: capitalize;
+}
+
+footer .row:nth-child(2) li:nth-child(1) { /*2nd row first list item for 'Destination'*/
+    font-weight: bold;
+}
+
+footer .row {
+    line-height: 75%;
+}
+
+footer .col-sm-4 {
+    text-align: right;
+}
+
+aside img { /*apply to the images within the aside*/
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+aside {
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+aside ul {
+    list-style: none;
+    padding: 0px;
+    font-size: 18px; color: #9E8C79;
+    margin:0px;
+}
+
+.content {
+    float: right;
+    width: 730px;
+    margin-top: 5px;
+}
+
+article {  /*article requires specific height b/c Lbox, Mbox, and Rbox are floated*/
+    font-size: 18px; color: white;
+    width: inherit;
+}
+
+article .Lbox {
+    width: 160px;
+    float: left;
+    background-color: #A59D85;
+    text-align: center;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-right: 25px;
+}
+
+article .Lbox p {
+    margin-top: 5px;
+}
+
+article .Mbox {
+    float: left;
+    width: 20%;
+    width: 350px;
+}
+
+article .Rbox {
+    float: left;
+    width: 320px;
+    margin-top: 5px;
+    margin-left: 18px;
+}
+
+.clear {
+    clear: both;
+}
